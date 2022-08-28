@@ -1,3 +1,4 @@
+
 {% if False %}
 
 # Introduction
@@ -28,19 +29,6 @@ Template is written with django 1.11 and python 3 in mind.
 
 To use this template to start your own project:
 
-### Existing virtualenv
-
-If your project is already in an existing python3 virtualenv first install django by running
-
-    $ pip install django
-    
-And then run the `django-admin.py` command to start the new project:
-
-    $ django-admin.py startproject \
-      --template=https://github.com/nikola-k/django-template/zipball/master \
-      --extension=py,md \
-      <project_name>
-      
 ### No virtualenv
 
 This assumes that `python3` is linked to valid installation of python 3 and that `pip` is installed and `pip3`is valid
@@ -55,7 +43,7 @@ If you don't have django installed for python 3 then run:
 And then:
 
     $ python3 -m django startproject \
-      --template=https://github.com/nikola-k/django-template/zipball/master \
+      --template=https://github.com/blue-star-007/django-template/zipball/master \
       --extension=py,md \
       <project_name>
       
